@@ -1,0 +1,230 @@
+@media only screen and (max-width: 600px) {
+    .menuTop {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 42vw;
+    }
+
+    .menuTop video {
+        object-fit: cover;
+        object-position: center;
+        margin-top: 7vw;
+        border-radius: 4px;
+        height: 200px;
+        width: 310px;
+    }
+
+    .mTopleft h3 {
+        font-size: 20px;
+    }
+
+    .mTopRight {
+        margin-top: 2vw;
+        font-family: Nb;
+        display: flex;
+        gap: 6px;
+        overflow: hidden;
+        flex-direction: column;
+    }
+
+    .mTopRight a {
+        color: #000;
+        text-decoration: none;
+        font-size: 4.3vw;
+        font-weight: 200;
+        line-height: 3.2vw;
+    }
+
+    .menubtm h3 {
+        padding: 5px;
+        font-size: 2.1vw;
+        font-weight: 200;
+    }
+
+    .undline a {
+        font-size: 15px;
+    }
+
+    .page1-content h1 {
+        font-family: rj;
+        font-size: 26.8vw;
+        margin-bottom: 30vh;
+        line-height: 280px;
+        font-weight: 100;
+    }
+
+    .page2 {
+        height: 60vh;
+    }
+
+    .page2-top h3 {
+        font-size: 4vw;
+        font-weight: 300;
+        width: 80%;
+    }
+
+    .page2-top h4 {
+        display: none;
+    }
+
+    .elem h1 {
+        font-size: 6vw;
+        font-weight: 500;
+    }
+
+    .page3 {
+        min-height: 150vh;
+        width: 100%;
+        font-family: Nb;
+        position: relative;
+        padding: 3vw;
+    }
+
+    .page3-top {
+        cursor: pointer;
+        text-align: center;
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transform: translate(-50%);
+        text-decoration: none;
+    }
+
+    .page3-top h2::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        border-radius: 5px;
+        height: 0.05em;
+        bottom: 0;
+        left: 0;
+        background: currentcolor;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    .page3-top h2:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    .page3-top h2 {
+        font-size: 7vw;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .page3 .imgTextUp h3 {
+        font-size: 3.5vw;
+        font-weight: 300;
+    }
+
+    .page3-elements {
+        height: 40vw;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10vw;
+    }
+
+    .page3-elements .box {
+        height: 150%;
+        width: 100%;
+        position: relative;
+    }
+
+    .page4 {
+        min-height: 20vh;
+        width: 100%;
+        font-family: Nb;
+        position: relative;
+        padding: 3vw;
+        background-color: #faf8f3;
+        overflow: hidden;
+    }
+
+    .page4-top {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-bottom: 1.2vw;
+        border-bottom: 0.8px solid rgba(0, 0, 0, 0.582);
+        overflow: hidden;
+    }
+
+    .page4 svg {
+        position: absolute;
+        height: 60%;
+    }
+
+    .rjVideo .circleText h1 {
+        font-weight: 200;
+        font-size: 5vw;
+    }
+
+    .rjVideo .circleText h2 {
+        font-weight: 200;
+    }
+
+    .page5-top {
+        display: none;
+    }
+
+    .page5 .elem3 {
+        display: none;
+    }
+
+    .btmsld {
+        margin-top: 40px;
+    }
+
+    .pageFooter {
+        height: 50vh;
+        overflow: hidden;
+        width: 100%;
+        background-color: black;
+        color: #fff;
+        font-family: Nb;
+        margin-top: -50vh;
+    }
+
+    .footertop {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ftleft h3 {
+        font-size: 4.8vw;
+    }
+
+    .ftleft a {
+        display: none;
+    }
+
+    .rl {
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+        padding: 2vw 1vw;
+    }
+
+    .rr {
+        display: none;
+    }
+
+    .footerbottom {
+        display: none;
+    }
+    .loader h3 {
+        font-weight: 200;
+        font-size: 5.5vw;
+      }
+}
